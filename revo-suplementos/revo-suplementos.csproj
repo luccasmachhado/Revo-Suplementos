@@ -7,4 +7,16 @@
     <RootNamespace>revo_suplementos</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\imagens\creatina.jpeg" />
+    <Content Remove="wwwroot\imagens\pretreino.jpeg" />
+    <Content Remove="wwwroot\imagens\whey.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\imagens\creatina.jpeg" />
+    <None Include="wwwroot\imagens\pretreino.jpeg" />
+    <None Include="wwwroot\imagens\whey.jpeg" />
+  </ItemGroup>
+
 </Project>
